@@ -8,5 +8,5 @@ class Balances extends Model
 {
     protected $table = 'balances';
 
-    protected $fillable = ['account_nr', 'balance', 'amount'];
+    protected $fillable = ['account_inr', 'balance', 'amount'];
 }
